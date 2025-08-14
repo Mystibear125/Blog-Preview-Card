@@ -5,8 +5,8 @@ body{
     font-family: Figtree;
 }
 @font-face {
+    src: url(Figtree-Medium.ttf);
     font-family: Figtree;
-    src: url(fonts/Figtree-Medium.ttf);
 }
 .container{
     background-color: hsl(0, 0%, 100%);
@@ -59,4 +59,5 @@ footer img{
 }
 footer p{
     font-weight: 800;
+
 }
