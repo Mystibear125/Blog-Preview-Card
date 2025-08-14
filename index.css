@@ -1,0 +1,62 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    margin: 0;
+    padding: 0;
+    font-family: Figtree;
+}
+@font-face {
+    font-family: Figtree;
+    src: url(fonts/Figtree-Medium.ttf);
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    width: 245px;
+    margin: 90px auto;
+    padding: 15px 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow:  5px 5px hsl(0, 0%, 7%);
+}
+.image{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 14px;
+}
+section{
+    width: 96%;
+}
+.image img{
+    border-radius: 10px;
+    width: 100%;
+}
+.learning{
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 5px 9px;
+    border-radius: 6px;
+    font-weight: 800;
+}
+.content h2{
+    font-size: 15.4px;
+}
+p{
+    font-size: 16px;
+}
+.content h2:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.structure{
+    color: hsl(0, 0%, 42%);
+}
+footer{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+footer img{
+    height: 37px;
+}
+footer p{
+    font-weight: 800;
+}
